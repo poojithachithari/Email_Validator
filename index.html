@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <linK rel="stylesheet"  href="style.css">
+    <title>Email Validator</title>
+</head>
+<body>
+    <header>
+ <nav>
+    <div class="logo"> Email Validator</div>
+      <ul>
+        <li><a href="/">Home </a></li>
+        <li><a href="/">About </a></li>
+        <li><a href="/">Contact </a></li>
+      </ul>
+ </nav>
+</header>
+  <main>
+     <div class="container">
+        <h1>Enter your email to validate</h1>
+        <form action="/submit" method="post">
+            <!-- text input for username -->
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Enter Your Email" id="email" name="email" required>
+            <br><br>
+
+            <!-- Submit Button -->
+            <input class="btn" id="submitBtn" type="submit" value="Submit">
+        </form>
+     </div>
+
+     <div   class="container">
+        <h2>Your results</h2>
+        <div  id="resultcont">
+           Your results will show here
+        </div>
+     </div>
+  </main>
+  <footer>
+      Copyright Email Validate | All Rights Reserved
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
